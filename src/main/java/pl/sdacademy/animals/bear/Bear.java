@@ -9,7 +9,7 @@ import pl.sdacademy.clock.DateTimeClock;
 
 public abstract class Bear implements Animal {
 
-    private int weight;
+    private long weight;
 
     private DateTime lastMealTime;
     private Clock clock;
@@ -34,7 +34,7 @@ public abstract class Bear implements Animal {
         return new Duration(lastMealTime, clock.getCurrentTime()).isShorterThan(Duration.standardDays(10));
     }
 
-    public void eat() {
+    public void eat(boolean isHungry) {
         lastMealTime = clock.getCurrentTime();
     }
 
