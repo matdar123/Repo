@@ -38,6 +38,10 @@ public abstract class Bear implements Animal {
         lastMealTime = clock.getCurrentTime();
     }
 
+    public void eatWeight (int eatWeight){
+        weight += eatWeight;
+    }
+
     @Override
     public int getWeight() {
         return weight;
