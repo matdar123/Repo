@@ -44,6 +44,7 @@ public abstract class Bear implements Animal {
 
     @Override
     public int getWeight() {
+
         return weight;
     }
 
