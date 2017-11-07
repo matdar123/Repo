@@ -5,7 +5,7 @@ import org.joda.time.Duration
 import pl.sdacademy.clock.Clock
 import spock.lang.Specification
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat
+
 
 
 class BearSpec extends Specification {
